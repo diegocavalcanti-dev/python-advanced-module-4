@@ -7,7 +7,7 @@ for i in x:
 x = [1,2,3,4,5]
 y = iter(x)
 try:
-    while True: 
+    while True:
         print(next(y))
 except StopIteration as e:
     pass
